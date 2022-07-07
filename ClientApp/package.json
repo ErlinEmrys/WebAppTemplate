@@ -1,0 +1,43 @@
+{
+	"name": "web-app-template",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build --emptyOutDir",
+		"serve": "vite preview",
+		"check": "svelte-check --tsconfig ./tsconfig.json && eslint ./src/**/*.{js,ts,svelte}",
+		"lint": "eslint ./src/**/*.{js,ts,svelte}"
+	},
+	"dependencies": {
+		"@macfja/svelte-persistent-store": "1.3.0",
+		"intl-messageformat": "9.13.0",
+		"page": "1.11.6",
+		"svelte-i18n": "3.4.0",
+		"svelte-themer": "0.5.5"
+	},
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "1.0.0-next.49",
+		"@tsconfig/svelte": "2.0.1",
+		"@types/node": "18.0.0",
+		"@typescript-eslint/eslint-plugin": "5.29.0",
+		"@typescript-eslint/parser": "5.29.0",
+		"@unocss/core": "0.43.2",
+		"@unocss/preset-attributify": "0.43.2",
+		"@unocss/preset-uno": "0.43.2",
+		"@unocss/preset-wind": "0.43.2",
+		"@unocss/reset": "0.43.2",
+		"eslint": "8.18.0",
+		"eslint-plugin-svelte3": "4.0.0",
+		"normalize.css": "8.0.1",
+		"svelte": "3.48.0",
+		"svelte-check": "2.7.2",
+		"svelte-preprocess": "4.10.7",
+		"tslib": "2.4.0",
+		"typescript": "4.7.3",
+		"unocss": "0.43.2",
+		"unplugin-auto-import": "0.8.8",
+		"vite": "2.9.12"
+	}
+}

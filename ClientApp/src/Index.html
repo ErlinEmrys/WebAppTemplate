@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<link href="/favicon.ico?cacheKey" rel="icon"/>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+	<title>Web App Template</title>
+	<script nonce="theme">
+		if( localStorage[ "__svelte-themer__theme" ] === "dark" ||
+			( !( "__svelte-themer__theme" in localStorage ) &&
+				window.matchMedia( "(prefers-color-scheme: dark)" ).matches ) )
+		{
+			// Dark theme
+			document.documentElement.style.backgroundColor = "#1c1917";
+		}
+		else
+		{
+			// Light theme
+			document.documentElement.style.backgroundColor = "#f1f1f1";
+		}
+	</script>
+</head>
+<body>
+	<div id="app"></div>
+	<script src="/Main.ts" type="module"></script>
+</body>
+</html>
