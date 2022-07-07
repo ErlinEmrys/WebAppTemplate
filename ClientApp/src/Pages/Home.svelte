@@ -13,30 +13,22 @@
 <br/>
 <ThemeToggle/>
 
-<p>
-	Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte apps.
-</p>
+<div gt-lg:(max-w-full mx-4 mx-auto)>
+	<p>
+		Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte apps.
+	</p>
 
-<p>
-	Check out <a href="https://github.com/sveltejs/kit#readme">SvelteKit</a> for the
-	officially
-	supported framework, also powered by Vite!
-</p>
+	<p>
+		Check out <a href="https://github.com/sveltejs/kit#readme">SvelteKit</a> for the
+		officially
+		supported framework, also powered by Vite!
+	</p>
 
-<a href="/about">ABOUT</a>
+	<a href="/about">ABOUT</a>
+</div>
 
 <style>
 	p {
-		--at-apply: max-w-14rem mx-auto my-4rem leading-5
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			max-width: none;
-		}
-
-		p {
-			max-width: none;
-		}
+		/*@apply: max-w-14rem mx-auto my-4rem leading-5;*/
 	}
 </style>

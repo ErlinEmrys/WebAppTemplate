@@ -1,13 +1,13 @@
 <script lang="ts">
 	import Router from "page";
-	import Index from "~/Pages/Index.svelte";
+	import Home from "~/Pages/Home.svelte";
 	import About from "~/Pages/About.svelte";
 	import Issue from "~/Pages/Issue.svelte";
 
 	let page;
 	let params;
 
-	Router( "/", () => ( page = Index ) );
+	Router( "/", () => ( page = Home ) );
 	Router( "/issue", () => ( page = Issue ) );
 	Router( "/issue/:id", ( ctx, next ) =>
 	{
