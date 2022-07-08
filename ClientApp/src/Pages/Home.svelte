@@ -30,7 +30,7 @@
 <style>
 	p {
 		/* Issue 1 */
-		/*@apply: max-w-14rem mx-auto my-4rem leading-5;*/
+		@apply: max-w-14rem mx-auto my-4rem leading-5;
 	}
 	
 	div {
