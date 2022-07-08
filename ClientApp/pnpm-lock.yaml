@@ -9,7 +9,6 @@ specifiers:
   '@typescript-eslint/parser': 5.29.0
   '@unocss/core': 0.43.2
   '@unocss/preset-attributify': 0.43.2
-  '@unocss/preset-uno': 0.43.2
   '@unocss/preset-wind': 0.43.2
   '@unocss/reset': 0.43.2
   eslint: 8.18.0
@@ -43,7 +42,6 @@ devDependencies:
   '@typescript-eslint/parser': 5.29.0_7omqkkq7gtkix5mfmoxm235otq
   '@unocss/core': 0.43.2
   '@unocss/preset-attributify': 0.43.2
-  '@unocss/preset-uno': 0.43.2
   '@unocss/preset-wind': 0.43.2
   '@unocss/reset': 0.43.2
   eslint: 8.18.0

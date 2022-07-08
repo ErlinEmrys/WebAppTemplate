@@ -5,7 +5,7 @@
 	import { ThemeToggle } from "svelte-themer";
 </script>
 
-<img alt="{$T( '#0#Svelte Logo' )}" h-16rem src={logo} w-16rem/>
+<img alt="{$T( '#0#Svelte Logo' )}" src={logo} h-16rem w-16rem/>
 <h1 font-100 max-w-14rem mx-auto my-2rem
 	 text-6xl text-red-600 uppercase>{$T( '#0#main title' )}</h1>
 
@@ -13,7 +13,7 @@
 <br/>
 <ThemeToggle/>
 
-<div gt-lg:(max-w-full mx-4 mx-auto)>
+<div>
 	<p>
 		Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte apps.
 	</p>
@@ -29,6 +29,10 @@
 
 <style>
 	p {
-		/*@apply: max-w-14rem mx-auto my-4rem leading-5;*/
+		@apply: max-w-14rem mx-auto my-4rem leading-5;
+	}
+	
+	div {
+		--at-apply: gt-lg:(max-w-full mx-4 mx-auto);
 	}
 </style>
