@@ -29,10 +29,12 @@
 
 <style>
 	p {
-		@apply: max-w-14rem mx-auto my-4rem leading-5;
+		/* Issue 1 */
+		/*@apply: max-w-14rem mx-auto my-4rem leading-5;*/
 	}
 	
 	div {
-		--at-apply: gt-lg:(max-w-full mx-4 mx-auto);
+		/* Issue 2 */
+		--at-apply: hoover:(max-w-full mx-4 mx-auto);
 	}
 </style>
