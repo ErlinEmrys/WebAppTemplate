@@ -3,6 +3,7 @@ import { defineConfig } from "vite";
 import { svelte } from "@sveltejs/vite-plugin-svelte";
 import AutoImport from "unplugin-auto-import/vite";
 import UnoCss from "unocss/vite";
+import { windi } from 'svelte-windicss-preprocess';
 
 // https://vitejs.dev/config/
 export default defineConfig( {
@@ -28,7 +29,9 @@ export default defineConfig( {
 		},
 	},
 
-	plugins: [ UnoCss(), svelte(), AutoImport( {
+	plugins: [ UnoCss(), svelte( {
+		preprocess: windi({})
+	}), AutoImport( {
 		// targets to transform
 		include: [ /\.[tj]sx?$/, // .ts, .tsx, .js, .jsx
 			/\.svelte$/, // .svelte

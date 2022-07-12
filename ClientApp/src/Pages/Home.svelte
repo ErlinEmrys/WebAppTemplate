@@ -14,7 +14,7 @@
 <ThemeToggle/>
 
 <div>
-	<p>
+	<p foo>
 		Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte apps.
 	</p>
 
@@ -29,10 +29,10 @@
 
 <style>
 	p {
-		--at-apply: max-w-14rem mx-auto my-4rem leading-5;
+		@apply max-w-14rem mx-auto my-4rem leading-5;
 	}
 	
 	div {
-		--at-apply: bg-red-500 sm:(bg-yellow-500 m-20);
+		@apply bg-red-500 sm:(bg-yellow-500 m-20);
 	}
 </style>
