@@ -13,4 +13,4 @@
 		<Layout/>
 	{/if}
 </ThemeWrapper>
-<div></div>
+<div style="display: none"></div>
