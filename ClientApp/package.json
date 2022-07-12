@@ -23,10 +23,10 @@
 		"@types/node": "18.0.0",
 		"@typescript-eslint/eslint-plugin": "5.29.0",
 		"@typescript-eslint/parser": "5.29.0",
-		"@unocss/core": "0.43.2",
-		"@unocss/preset-attributify": "0.43.2",
-		"@unocss/preset-wind": "0.43.2",
-		"@unocss/reset": "0.43.2",
+		"@unocss/core": "0.44.1",
+		"@unocss/preset-attributify": "0.44.1",
+		"@unocss/preset-wind": "0.44.1",
+		"@unocss/reset": "0.44.1",
 		"eslint": "8.18.0",
 		"eslint-plugin-svelte3": "4.0.0",
 		"normalize.css": "8.0.1",
@@ -35,7 +35,7 @@
 		"svelte-preprocess": "4.10.7",
 		"tslib": "2.4.0",
 		"typescript": "4.7.3",
-		"unocss": "0.43.2",
+		"unocss": "0.44.1",
 		"unplugin-auto-import": "0.8.8",
 		"vite": "2.9.12"
 	}
