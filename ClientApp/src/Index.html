@@ -7,8 +7,8 @@
 	<title>Web App Template</title>
 	<script nonce="theme">
 		if( localStorage[ "__svelte-themer__theme" ] === "dark" ||
-			( !( "__svelte-themer__theme" in localStorage ) &&
-				window.matchMedia( "(prefers-color-scheme: dark)" ).matches ) )
+			!( "__svelte-themer__theme" in localStorage ) &&
+			window.matchMedia( "(prefers-color-scheme: dark)" ).matches )
 		{
 			// Dark theme
 			document.documentElement.style.backgroundColor = "#1c1917";
@@ -20,7 +20,7 @@
 		}
 	</script>
 </head>
-<body>
+<body style="margin: 0;">
 	<div id="app"></div>
 	<script src="/Main.ts" type="module"></script>
 </body>
