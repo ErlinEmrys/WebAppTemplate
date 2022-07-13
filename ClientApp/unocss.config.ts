@@ -7,7 +7,7 @@ import {
 
 export default defineConfig( {
 	extractors: [ extractorSvelte ],
-	shortcuts: [ [ "foo", "bg-green-500" ] ],
+	shortcuts: [ [ "foo", "bg-green-500" ], [ "boo", "bg-blue-500" ], [ "goo", "bg-gray-500" ] ],
 	presets: [ presetAttributify(), presetWind(), presetTypography(), presetWebFonts( {
 		fonts: {
 			sans: "DM Sans", serif: "DM Serif Display", mono: "DM Mono",

@@ -1,5 +1,5 @@
-<h1>About project</h1>
+<h1 goo>About project</h1>
 
-<p>This project is build on Svelte!</p>
+<p boo>This project is build on Svelte!</p>
 
 <a href="/">HOME</a>

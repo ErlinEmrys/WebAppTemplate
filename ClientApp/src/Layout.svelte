@@ -7,14 +7,14 @@
 	let page;
 	let params;
 
-	Router( "/", () => ( page = Home ) );
-	Router( "/issue", () => ( page = Issue ) );
+	Router( "/", () => page = Home );
+	Router( "/issue", () => page = Issue );
 	Router( "/issue/:id", ( ctx, next ) =>
 	{
 		params = ctx.params;
 		next();
-	}, () => ( page = Issue ) );
-	Router( "/about", () => ( page = About ) );
+	}, () => page = Issue );
+	Router( "/about", () => page = About );
 
 	Router.start();
 </script>
